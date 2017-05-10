@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>A Sample Site</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body{
+	background: #F1F0D1;
+	font-family: Verdan, Tahoma, Arial, sans-serif;
+	font-size: 18px;
+	overflow: auto;
+
+}
+h1, h2, h3{
+	text-align: center;
+	padding-left: 5%;
+	color: #878E63;
+
+}
+p{
+	padding: 2%;
+	color: #878E63;
+}
+img{
+	text-align: center;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+#wrapper{
+	margin: 0 auto;
+	max-width: 1020px;
+	width: 98%;
+	background: #FEFBE8;
+	border: 1px solid #878E63;
+	box-shadow: 0 0 10px 0px rgba(12, 3, 25, 0.8);
+}
+#callout{
+	width: 100%;
+	height: auto;
+	background: #878E63;
+	overflow: hidden; 
+}
+#callout p{
+	text-align: right;
+	font-size: 13px;
+	padding: 0.1% 5% 0 0; 
+	color: #F1F0D1;
+}
+#callout p a{
+	color: #F1F0D1;
+	text-decoration: none;
+}
+header{
+	width: 96%;
+	min-height: 125px;
+	padding: 5px;
+	text-align: center; 
+}
+nav ul{
+	list-style: none;
+	margin: 0;
+	padding-left: 50px;
+
+}
+nav ul li{
+	float: left;
+	border: 1px solid #878E63;
+	width: 15%;
+}
+nav ul li a{
+	background: #F1F0D1;
+	display: block;
+	padding: 5% 12%;
+	font-weight: bold;
+	font-size: 18px;
+	color: #878E63;
+	text-decoration: none;
+	text-align: center;
+}
+nav ul li a: hover, nav ul li.active a{
+	background-color: #878E63;
+	color: #F1F0D1;
+}
+.banner img{
+	width: 100%;
+	border-top: 1px solid #878E63;
+	border-bottom: 1px solid #878E63;
+
+}
+.clearfix{
+	clear: both;
+}
+.left-col{
+	width: 55%;
+	float: left;
+	margin: -2% 1% 1% 1%;
+
+}
+.sidebar{
+	width: 40%;
+	float: right;
+	margin: 1%;
+	text-align: center;
+}
+.therapy{
+	float: left;
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+	padding: 1%; 
+}
+.section{
+	width: 29%;
+	float: left;
+	margin: 1% 1%;
+	text-align: center;
+}
+footer{
+	background: #878E63;
+	width: 100%;
+	overflow: hidden;
+    
+}
+footer p, footer h3{
+	color: #F1F0D1;
+
+}
+footer p a{
+	color: #F1F0D1;
+	text-decoration: none;
+
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0; 
+}
+li{
+	display: inline;
+}
+ul li img{
+	height: 50px;
+}
+/*--------------------MEDIA---------------*/
+@media screen and (max-width: 478px)
+{
+	body{
+		font-size: 113px;
+	}
+}
+@media screen and (max-width: 740px)
+{
+	nav{
+		width: 100%;
+		margin-bootom: 10px;
+
+	}
+	nav ul{
+		list-style: none;
+		margin: 0 auto;
+		padding-left: 0; 
+	}
+   nav ul li{
+   	text-align:center;
+   	margin-left: 0 auto;
+   	width:100%;
+    border-top:1px solid #878E63;
+    border-right:0px solid #878E63;
+    border-bottom:1px solid #878E63;
+    border-left:0px solid #878E63;
+    }
+    nav ul li a{
+    	padding: 8px 0;
+    	font-size: 16px;
+    }
+    .left-col{
+    	width: 100%;
+    }
+    .sidebar{
+    	width: 100%;
+    }
+    .section{
+    	float: left;
+    	width: 100%;
+    	margin: 0; 
+    }
+
+}	
+
+</style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="callout">
+           <p> call us at <b>123456789</b></p>
+        </div>
+         <header>
+             <center><h1>Lorem Ipsum</h1></center>
+         </header>
+         <nav>
+             <ul>
+                <li class='active'><a href="#">Home</a></li>
+                <li><a href="#">Facility</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Hours</a></li>
+                <li><a href="#">Contact</a></li>
+             </ul>
+             <div class="clearfix"></div>
+         </nav>
+         <div class="banner">
+               <img src="http://www.w3newbie.com/wp-content/uploads/massagebanner.png"/>
+         </div>
+             
+         <section class="left-col">
+         	<p style="text-indent : 50px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor leo ut accumsan egestas. Phasellus felis tellus, maximus nec eleifend non, iaculis ut elit. Proin at sem maximus, condimentum erat eget, sollicitudin justo. Mauris viverra et urna eget porttitor. Praesent suscipit id purus et tincidun</p>
+         	<p style="text-indent : 50px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor leo ut accumsan egestas. Phasellus felis tellus, maximus nec eleifend non, iaculis ut elit. Proin at sem maximus, condimentum erat eget, sollicitudin justo. Mauris viverra et urna eget porttitor. Praesent suscipit id purus et tincidun</p>
+         </section>
+          <aside class="sidebar">
+             <div class="therapy">
+            <img src="http://www.w3newbie.com/wp-content/uploads/therapist.jpg"/>
+             </div>
+          </aside>
+          <div class="clearfix"></div>
+        <div class="section">
+         <h3> 	Private Massage Area</h3>
+          <img src="http://www.w3newbie.com/wp-content/uploads/private.png"/>
+         <p>Sed porta faucibus sapien at gravida. Ut lacinia massa eu dui convallis, nec scelerisque sem consectetur. Aenean malesuada sollicitudin justo, a ornare purus fermentum vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam erat volutpat. Sed tempor turpis a tortor imperdiet, a semper eros accumsan. Praesent sed lorem non purus aliquam laoreet. Cras scelerisque laoreet sem a porta.</p>
+        </div>
+         <div class="section">
+         <h3>Sauna & Steam Room</h3>
+          <img src="http://www.w3newbie.com/wp-content/uploads/sauna-steam.png"/>
+         <p>Sed porta faucibus sapien at gravida. Ut lacinia massa eu dui convallis, nec scelerisque sem consectetur. Aenean malesuada sollicitudin justo, a ornare purus fermentum vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam erat volutpat. Sed tempor turpis a tortor imperdiet, a semper eros accumsan. Praesent sed lorem non purus aliquam laoreet. Cras scelerisque laoreet sem a porta.</p>
+        </div>
+         <div class="section">
+         <h3>Resort Retreat</h3>
+          <img src="http://www.w3newbie.com/wp-content/uploads/retreat.png"/>
+         <p>Sed mauris libero, sagittis ut fermentum eu, egestas sed sem. Sed nec felis sed tortor tincidunt bibendum. Donec mattis posuere mi, sed consectetur ante dictum sit amet. Pellentesque placerat neque eu augue sagittis mattis. Curabitur aliquet nisl et turpis efficitur sollicitudin. </p>
+        </div>
+         <footer>
+         <div class="section">
+         <p>Massage by Tia</p>
+         <p><b>123456789</b><br>
+         1700 chestunt street<br>
+         DDA flat,Govindpuri<br>
+         Delhi, India<br>
+         </div>
+         <div class="section">
+         <ul>
+         <li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/facebook1.png"/></a>
+         <li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/googleplus.png"/></a>
+         <li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/twitter1.png"/></a>
+         <li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/youtube1.png"/></a>
+         
+         </ul>
+         </div>
+         <div class="section">
+         <img src="http://www.w3newbie.com/wp-content/uploads/plant.png"/>
+         
+         </div>
+         </footer>
+        </div>       
+    </div>
+    <p style= "text-align: center; padding: 0px;">&#169;Copyright - massage by Tia, 2014</p>
+</body>
+</html>    
